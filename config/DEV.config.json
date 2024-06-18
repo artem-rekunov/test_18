@@ -4,7 +4,6 @@
     "service_01": {
         "host": "localhost",
         "port": 5505,
-
         "dbCredencial": {
             "host": "localhost",
             "user": "test_user",
