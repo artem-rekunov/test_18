@@ -1,11 +1,15 @@
 ## Installation
-
 ```bash
 $ pnpm install
 ```
 
-## Running the app
+## Start pgsql + pgAdmin
+```bash
+# start db + pgAdmin
+$ docker compose -f "docker-compose.yml" up -d --build
+```
 
+## Running the app
 ```bash
 # development
 $ pnpm run start
@@ -17,6 +21,7 @@ $ pnpm run start:dev
 $ pnpm run start:prod
 ```
 
-## License
+## Or run node server in Docker
+```bash
 
-Nest is [MIT licensed](LICENSE).
+```
