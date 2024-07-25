@@ -1,0 +1,32 @@
+version: '3.5'
+
+services:
+  postgresql:
+    image: postgres
+    container_name: postgresContainer
+    # volumes:
+    #    - postgres:/data/postgres
+    env_file:
+      - .env
+    ports:
+      - 5432:5432
+    # networks:
+    #   - postgres
+
+    healthcheck:
+      test: ["CMD-SHELL", "sh -c 'pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}'"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+    restart: unless-stopped
+
+    deploy:
+        resources:
+            limits:
+                cpus: '1'
+                memory: 4G
+
+# volumes:
+#     postgres:
+

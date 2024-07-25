@@ -3,7 +3,7 @@
     "version": "test",
     "service_01": {
         "host": "127.0.0.1",
-        "port": 5505,
+        "port": 3030,
         "dbCredencial": {
             "user": "testadmin",
             "password": "testpwd",
