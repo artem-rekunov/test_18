@@ -3,9 +3,10 @@
 $ pnpm install
 ```
 
-## Start pgsql + pgAdmin
+## for connent to db i use VScode extention ["PostgreSQL"](https://database-client.com/)
+## Start pgsql
 ```bash
-# start db + pgAdmin
+# start db
 $ docker compose -f "docker-compose.yml" up -d --build
 ```
 

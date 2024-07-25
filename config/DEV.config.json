@@ -1,14 +1,14 @@
 {
-    "title": "dev confit file",
+    "description": "test confit file",
     "version": "test",
     "service_01": {
-        "host": "localhost",
+        "host": "127.0.0.1",
         "port": 5505,
         "dbCredencial": {
-            "host": "localhost",
-            "user": "test_user",
-            "password": "test_pwd",
-            "database": "test_db",
+            "user": "testadmin",
+            "password": "testpwd",
+            "database": "testdb",
+            "host": "127.0.0.1",
             "port": 5432
         }
     }

@@ -35,12 +35,19 @@ lerna-debug.log*
 !.vscode/launch.json
 !.vscode/extensions.json
 
+# for the test project these lines (below) are commented out
 # dotenv environment variable files
-.env
-.env.development.local
-.env.test.local
-.env.production.local
-.env.local
+# .env
+# .env.development.local
+# .env.test.local
+# .env.production.local
+# .env.local
+
+# for the test project these lines (below) are commented out
+# configs
+# /configs/DEV.config.json
+# /configs/secret.db.pas.txt
+# /configs/secret.db.user.txt
 
 # temp directory
 .temp
